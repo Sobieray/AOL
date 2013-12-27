@@ -6,7 +6,7 @@
 	height: 558px;
 }
 
-.hero h1, p {
+.hero h1, .hero p {
 	color: #fff;
 	text-align: center;
 	text-transform:;
@@ -15,7 +15,6 @@
 .hero h1 {
 	margin-top: 50px;
 	text-transform: uppercase;
-	font-size: 57px;
 	font-weight: bold;
 	
 }
@@ -45,17 +44,23 @@
 	letter-spacing: 2px;
 
 }
+.lrg_copy {
+	margin: 20% 0 5% 0;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
 #brands {
 	padding-top: 80px;
 	background-image: url(../img/brands.png);
 	background-repeat: no-repeat;
-	background-position: center 200px;
-	background-size: 80% auto;
-	height: 786px;
+	background-position: center;
+	background-size: 100%;
+	height: auto;
+	padding-bottom: 5%;
 
 }
-#brands h1 {
-	font-size: 40px;
+#brands h3 {
 	color: #555555;
 	font-weight: bold;
 	text-align: center;
@@ -66,7 +71,155 @@
 	font-style: italic;
 }
 #brands a {
-	margin-top: 530px;
+	margin-top: 70%;
+}
+
+#AOL {
+	height: auto;
+	background-image: url(../img/aol_logo_BG.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10%;
+}
+#AOL div {
+	position: relative;
+	top: 20%;
+
+}
+#AOL p {
+	text-align: center;
+	font-size: 24px;
+	color: #1f394f;
+}
+#scale {
+	height: auto;
+	background-image: url(../img/scale_career.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 10%;
+}
+
+#careers {
+	height: auto;
+	background-color: #00aeef;
+	padding-bottom: 30px;
+}
+#careers h4 {
+	font-size: 2.5rem;
+	color: #fff;
+	text-align: center;
+	margin: 50px 0px 50px 0px;
+}
+#careers a {
+	font-size: 1.5rem;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 65px;
+	background-color: ;
+}
+#careers div .columns {
+	height: 65px;
+	background-color: #363636;
+	width: 360px;
+	margin-bottom: 8px;
+	background-image: url(../img/careers_arrow.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#careers div .columns:nth-child(3), #careers div .columns:nth-child(5) {
+	float: right;
+}
+#office {
+	height: auto;
+	background-image: url(../img/office_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding-bottom: 50px;
+}
+
+#map {
+	height: 615px;
+	background-image: url(../img/map_PH.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px 120px;
+}
+#map h3 {
+	text-align: center;
+	color: #fff;
+	line-height: 295%;
+	margin: 0;
+}
+.gray_bg {
+	background-color: #3c3d3d;
+}
+#free-thinking {
+	height: auto;
+	background-image: url(../img/free_thinking.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding-bottom: 50px;
+}
+#twenty-five {
+	height: auto;
+	background-image: url(../img/25.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 15% 0;
+}
+#transform {
+	height: auto;
+	background-image: url(../img/transforming.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding-bottom: 50px;
+}
+footer {
+	height: 537px;
+	background-color: #cccccc;
+}
+footer h1 {
+	margin: 5% 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #464646;
+	font-weight: bold;
+}
+footer h6 {
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+footer .columns {
+	border-left: 1px solid #a4a4a4;
+	height: 240px;
+}
+footer	.columns:last-child {
+	border-right: 1px solid #a4a4a4;
+}
+footer ul {
+	list-style: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: #636363;
+	margin: 0;
+}
+footer p {
+		text-align: center;
+		text-transform: uppercase;
+		color: #636363;
+}
+footer li {
+	margin-bottom: 10px;
 }
 .button.round {
 	background-color: #959595;
@@ -83,4 +236,5 @@
 	background-image: url(../img/red_arrow.png);
 	background-repeat: no-repeat;
 	background-position: 10px center;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
 }
