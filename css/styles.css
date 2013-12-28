@@ -137,7 +137,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	padding-bottom: 50px;
+	padding: 2% 0 18% 0;
 }
 
 #map {
@@ -162,7 +162,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	padding-bottom: 50px;
+	padding:10% 0 14% 0;
 }
 #twenty-five {
 	height: auto;
@@ -178,63 +178,4 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	padding-bottom: 50px;
-}
-footer {
-	height: 537px;
-	background-color: #cccccc;
-}
-footer h1 {
-	margin: 5% 0;
-	text-align: center;
-	text-transform: uppercase;
-	color: #464646;
-	font-weight: bold;
-}
-footer h6 {
-	text-transform: uppercase;
-	font-size: 14px;
-	text-align: center;
-	color: #000;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-footer .columns {
-	border-left: 1px solid #a4a4a4;
-	height: 240px;
-}
-footer	.columns:last-child {
-	border-right: 1px solid #a4a4a4;
-}
-footer ul {
-	list-style: none;
-	text-align: center;
-	text-transform: uppercase;
-	color: #636363;
-	margin: 0;
-}
-footer p {
-		text-align: center;
-		text-transform: uppercase;
-		color: #636363;
-}
-footer li {
-	margin-bottom: 10px;
-}
-.button.round {
-	background-color: #959595;
-	width: 262px;
-	height: 73px;
-	line-height: 73px;
-	font-weight: bold !important;
-	font-size: 36px;
-	padding: 0;
-	margin: 0 auto;
-	display: block;
-	padding-left: 40px;
-	letter-spacing: 1px;
-	background-image: url(../img/red_arrow.png);
-	background-repeat: no-repeat;
-	background-position: 10px center;
-	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
-}
+	padding:11%
