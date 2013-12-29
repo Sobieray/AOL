@@ -1563,7 +1563,7 @@ meta.foundation-mq-topbar {
     display: block;
     background: #fff;
     font-size: 16px;
-    margin: 0 0 0 18%; }
+    margin: 0 0 0 12%; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-top: solid 1px #1a1a1a;

@@ -34,10 +34,12 @@
 
 .hero {
 	background-image: url(../img/hero_img.jpg);
-	background-position: center;
+	background-position-x: 50%;
+	background-position-y: 0px;
+	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 558px;
+	height: auto;
 }
 
 .hero h1, .hero p {
@@ -62,6 +64,7 @@
 }
 .hero a {
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
 .herobtn {
 	background-image: url(../img/blue_arrow.png);
@@ -76,7 +79,6 @@
 	display: block;
 	line-height: 75px;
 	letter-spacing: 2px;
-
 }
 .lrg_copy {
 	margin: 20% 0 5% 0;
@@ -85,11 +87,14 @@
 	font-weight: bold;
 }
 #brands {
-	background-image: url(../img/brands.png);
+	/*background-image: url(../img/brands.png);
+	background-position-x: 50%;
+	background-position-y:50%;
+	background-attachment: fixed; 
 	background-repeat: no-repeat;
-	background-position: center;
 	background-size: 100%;
 	height: auto;
+	z-index: 99;*/
 
 }
 #brands h3 {
@@ -97,19 +102,23 @@
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
-	margin-top: 80px;
+	margin: 20px auto;
+	margin-top: 5%;
 }
 
 #brands span {
 	font-style: italic;
 }
 #brands a {
-	margin-top: 54%;
+	margin-top: 4%;
 }
 
 #AOL {
 	height: auto;
 	background-image: url(../img/aol_logo_BG.jpg);
+	background-position-x: 50%;
+	background-position-y: 0px;
+	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -123,9 +132,11 @@
 #scale {
 	height: auto;
 	background-image: url(../img/scale_career.jpg);
+	background-position-x: 50%;
+	background-position-y: 100px;
+	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
 }
 
 #careers {
@@ -161,9 +172,11 @@
 #office {
 	height: auto;
 	background-image: url(../img/office_bg.jpg);
+	background-position-x: 50%;
+	background-position-y:50px;
+	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top;
 	
 }
 
@@ -186,6 +199,9 @@
 #free-thinking {
 	height: auto;
 	background-image: url(../img/free_thinking.jpg);
+	background-position-x: 50%;
+	background-position-y: 0px;
+	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -194,6 +210,9 @@
 #twenty-five {
 	height: auto;
 	background-image: url(../img/25.jpg);
+	background-position-x: 50%;
+	background-position-y: 0px;
+	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -202,6 +221,9 @@
 #transform {
 	height: auto;
 	background-image: url(../img/transforming.jpg);
+	background-position-x: 50%;
+	background-position-y: 0px;
+	background-attachment: fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -301,7 +323,31 @@ footer li {
 	float: right;
 	cursor: pointer;
 }
-@media only screen and (max-width: 40.063em) {
+@media only screen and (max-width: 960px) {
+	.herobtn {
+		font-size: 18px;
+		width: 450px;
+	}
+}
+@media only screen and (max-width: 925px) {
+	.top-bar-section ul {
+		margin-left: 1%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.top-bar-section ul li > a {
+		font-size: 10px;
+	}
+	.top-bar-section li a:not(.button) {
+		padding: 0 5px;
+	}
+
+}
+
+@media only screen and (max-width: 40em) {
+	.top-bar-section ul li > a {
+		font-size: 16px;
+	}
 	#AOL p {
 		text-align: center;
 		font-size: 16px;
@@ -312,7 +358,7 @@ footer li {
 		width: 300px;
 		font-size: 18px;
 		line-height: 1;
-		padding-top: 7%;
+		padding-top: 20px;
 		
 
 	}
@@ -342,3 +388,4 @@ footer li {
 		height: 280px;
 	}
 }
+
