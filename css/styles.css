@@ -104,8 +104,7 @@
 	font-style: italic;
 }
 #brands a {
-	margin-top: 30%;
-	margin-bottom: 80px;
+	margin-top: 54%;
 }
 
 #AOL {
@@ -127,7 +126,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 10%;
 }
 
 #careers {
@@ -166,7 +164,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	padding: 2% 0 18% 0;
+	
 }
 
 #map {
@@ -191,7 +189,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	padding:10% 0 14% 0;
+	
 }
 #twenty-five {
 	height: auto;
@@ -207,7 +205,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	padding:11%;
 }
 footer {
 	height: auto;
@@ -290,6 +287,7 @@ footer li {
 	background-repeat: no-repeat;
 	background-position: 10px center;
 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+	margin-bottom: 10%;
 }
 .slide {
 	background-image: url(../img/slide_bg.png);
@@ -298,6 +296,10 @@ footer li {
 	height: 100%;
 	background-position: center;
 
+}
+.close {
+	float: right;
+	cursor: pointer;
 }
 @media only screen and (max-width: 40.063em) {
 	#AOL p {
@@ -317,10 +319,26 @@ footer li {
 	.hero p {
 		width: 75%;
 	}
+	.slide {
+		background-position: right;
+	}
+	.button.round {
+		width: 200px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 24px;
+		background-position: 6px center;
+	}
 	#careers div .columns {
 		width: 100%;
 	}
 	#careers a {
 		font-size: 1.25rem;
+	}
+	footer ul, footer h6, footer p {
+		font-size: 12px;
+	}
+	footer .columns {
+		height: 280px;
 	}
 }
