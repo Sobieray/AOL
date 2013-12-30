@@ -1563,7 +1563,7 @@ meta.foundation-mq-topbar {
     display: block;
     background: #fff;
     font-size: 16px;
-    margin: 0 0 0 12%; }
+    margin: 0 0 0 14.7%; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-top: solid 1px #1a1a1a;
@@ -1601,6 +1601,24 @@ meta.foundation-mq-topbar {
       background: #f04124; }
       .top-bar-section ul li > a.button.alert:hover {
         background: #d32a0e; }
+  .search {
+   padding-left: 0%;
+   
+  }
+  .search a {
+    background-color: #d7d7d7 !important;
+    color: #fff !important;
+    width: 170px !important;
+    background-image: url(../img/white_arrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center right !important;
+  }
+  .search a:hover {
+    background-color: #989898 !important;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+  }
   .top-bar-section ul li:hover > a {
     background: #fff;
     color: #00aeef; }
@@ -1633,7 +1651,7 @@ meta.foundation-mq-topbar {
   .top-bar-section .dropdown {
     position: absolute;
     left: 100%;
-    top: 0;
+    top: -1px;
     display: none;
     z-index: 99; }
     .top-bar-section .dropdown li {
@@ -1647,7 +1665,7 @@ meta.foundation-mq-topbar {
       .top-bar-section .dropdown li.title h5 {
         margin-bottom: 0; }
         .top-bar-section .dropdown li.title h5 a {
-          color: white;
+          color: #989696;
           line-height: 22.5px;
           display: block; }
     .top-bar-section .dropdown label {
@@ -1722,7 +1740,7 @@ meta.foundation-mq-topbar {
         width: 0;
         height: 0;
         border: inset 5px;
-        border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
+        border-color: rgba(152, 152, 150, 1.0) transparent transparent transparent;
         border-top-style: solid;
         margin-top: -2.5px;
         top: 22.5px; }
@@ -1743,17 +1761,22 @@ meta.foundation-mq-topbar {
       top: auto;
       background: transparent;
       min-width: 100%; }
+      .top-bar-section .dropdown li {
+        margin: 0;
+      }
       .top-bar-section .dropdown li a {
         color: white;
         line-height: 1;
         white-space: nowrap;
         padding: 12px 15px;
-        background: #333333; }
+        background: #989696; }
+      .top-bar-section .dropdown li a:not(.button):hover {
+        background: #D3D1D1; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: #333333; }
       .top-bar-section .dropdown li .dropdown {
-        left: 100%;
+        left: 85%;
         top: 0; }
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
