@@ -360,12 +360,33 @@ footer .social img:hover {
 	background-color: #fff;
 	padding: 20px;
 }
-.engineering {
-	background-image: url(../img/iframe-engineer.jpg);
+.engineering, .ux, .editorial, .sales, .corporate, .internships, .locations {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position-y: 115px;
+	background-position-y: -100px;
+	background-position-x:center;
 	height: auto; 
+}
+.engineering {
+	background-image: url(../img/iframe-engineer.jpg);
+}
+.ux {
+	background-image: url(../img/iframe-design.jpg);
+}
+.editorial {
+	background-image: url(../img/iframe-editorial.jpg);
+}
+.sales {
+	background-image: url(../img/palo-alto.jpg);
+}
+.corporate {
+	background-image: url(../img/img_1240.jpg);
+}
+.internships {
+	background-image: url(../img/img_1257.jpg);
+}
+.locations {
+	background-image: url(../img/tim.jpg);
 }
 
 /* Media Queries */
